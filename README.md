@@ -58,7 +58,7 @@ Le presentamos nuestro producto en su fase inicial. Su propósito es la validaci
     Todo lo demás bloqueado.
 
 6. Auditoría y logs
-
+   
     Log principal: /var/log/wazuh_install_enterprise_pro.log
     Auditoría automática de:
     Servicios
@@ -66,7 +66,7 @@ Le presentamos nuestro producto en su fase inicial. Su propósito es la validaci
     Firewall
     Certificados
 
-7. QA y validación
+8. QA y validación
 
     Pruebas de comunicación SSL.
     Login Dashboard con admin/admin.
@@ -74,12 +74,15 @@ Le presentamos nuestro producto en su fase inicial. Su propósito es la validaci
     Scripts repetibles para múltiples entornos de QA.
 
 # Plan de Validación y QA para el Script Enterprise Pro Wazuh v2.4
+
 1️⃣ Entorno Base
+
     Sistema operativo: Ubuntu 24.04 LTS (confirmado como plataforma de despliegue).
     Servidores de prueba: separados en QA para replicar producción.
     Servicios previos: Wazuh Indexer, Wazuh Dashboard y Wazuh Manager.
 
 2️⃣ Validación Pre-Instalación
+
     Comprobar privilegios root.
     Auditoría de directorios y archivos críticos:
       /etc/wazuh-indexer/certs
@@ -89,6 +92,7 @@ Le presentamos nuestro producto en su fase inicial. Su propósito es la validaci
     Confirmación de que la CA y certificados previos existen o se generarán correctamente.
 
 3️⃣ Ejecución del Script
+
     Script v2.4 ejecutado con opciones automatizadas o manuales según QA.
     Variables controladas:
       Tiempo de validez de certificados.
@@ -97,6 +101,7 @@ Le presentamos nuestro producto en su fase inicial. Su propósito es la validaci
     Registro de logs completo en /var/log/wazuh_install_enterprise_pro.log.
 
 4️⃣ Post-Instalación QA
+
     Servicios
     wazuh-indexer, wazuh-dashboard, wazuh-manager activos.
     Reinicio automático confirmado.
@@ -113,6 +118,7 @@ Le presentamos nuestro producto en su fase inicial. Su propósito es la validaci
     Prueba de refresco de datos en dashboard.
 
 5️⃣ Auditoría QA
+
     Reporte automático al finalizar:
     Estado de servicios.
     Directorios y permisos.
@@ -123,6 +129,7 @@ Le presentamos nuestro producto en su fase inicial. Su propósito es la validaci
     Tiempo de instalación y log completo de pasos.
 
 6️⃣ Automatización QA
+
     Crear un checkpoint de QA:
     Antes de reiniciar el servidor.
     Después de reiniciar: script comprueba que todos los servicios vuelven a iniciar y que los certificados son válidos.

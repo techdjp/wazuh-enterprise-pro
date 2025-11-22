@@ -141,8 +141,4 @@ Le presentamos nuestro producto en su fase inicial. Su propósito es la validaci
       --run-check → Solo auditoría y validación QA.
       --recreate-certs → Permite regenerar certificados desde la CA.
 
-
-
-
-
-    
+<img width="3805" height="1805" alt="image" src="https://github.com/user-attachments/assets/79bf3607-ac09-4156-94da-d09995334d0b" />

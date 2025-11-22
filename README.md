@@ -5,6 +5,9 @@ Le presentamos nuestro producto en su fase inicial. Su propósito es la validaci
 
 ¡Gracias por participar y por sus comentarios!
 
+<img width="3804" height="1802" alt="image" src="https://github.com/user-attachments/assets/75b255e1-2b7c-4b44-82c2-224f77cc722e" />
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Resultados esperados QA
 
